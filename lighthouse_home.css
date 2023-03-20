@@ -1,11 +1,64 @@
-.header{
-    color: white;
+/* font style link */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* header */
+#header {
+
+    background-color: rgb(63, 48, 48);
 }
 
-/* slider */
+#navbar-brand {
+    color: rgb(86, 117, 191);
+    font-size: 200%;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+}
 
-#slider{
+#nav-link {
+    color: antiquewhite;
+}
+
+/* latest stories */
+
+#card_ls {
+    width: 100%;
+    height: 100%;
+    transition: 1s ease-in-out;
+    color: white;
+
+}
+
+#card_ls:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(64, 54, 54, 0.2), 0 6px 20px 0 rgba(67, 61, 61, 0.19);
+}
+
+.card_p {
+    margin-top: -6%;
+    margin-left: -4%;
+    font-size: smaller;
+}
+
+.card_a {
+    text-decoration: none;
+    color: white;
+
+}
+
+/* choose your product (cyp) */
+
+#cyp_1 {
+    transition: 1s ease-in-out;
+}
+
+#cyp_1:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(70, 52, 232, 0.2), 0 6px 20px 0 rgba(104, 6, 240, 0.19);
+}
+
+/* footer */
+.button_f{
+    margin-top: 3%;
+   
     
-    width: 77%;
-    height: auto;
 }
